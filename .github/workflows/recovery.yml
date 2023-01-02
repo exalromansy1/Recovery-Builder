@@ -14,10 +14,10 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated
-  DEVICE: KD7
-  DT_LINK: https://github.com/mastersenpai0405/recovery_device_tecno_KD7
-  DT_PATH: device/tecno/KD7
-  TARGET: recoveryimage
+  DEVICE: Infinix-X626B
+  DT_LINK: https://github.com/twrpdtgen/android_device_infinix_Infinix-X626B.git
+  DT_PATH: device/infinix/Infinix-X626B
+  TARGET: bootimage
   TZ: Asia/manila
 
 jobs:
